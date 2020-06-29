@@ -20,8 +20,8 @@ builds:
   goarch:
     - amd64
     - arm
-  hooks:
-    post: sh copy-signatory.sh
+      #  hooks:
+      #    post: sh copy-signatory.sh
   ignore:
         - goos: darwin
           goarch: 386
@@ -43,8 +43,8 @@ builds:
   goarch:
     - amd64
     - arm
-  hooks:
-    post: sh copy-signatory-cli.sh
+      #  hooks:
+      #    post: sh copy-signatory-cli.sh
   ignore:
     - goos: darwin
       goarch: 386
@@ -58,6 +58,7 @@ dockers:
     image_templates:
     - "technomad21c/signatory:latest"
     - "technomad21c/signatory:{{ .Tag }}"
+    dockerfile: ./cmd/signatory/Dockerfile
 archives:
 - replacements:
     darwin: Darwin
