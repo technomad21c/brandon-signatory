@@ -58,10 +58,10 @@ builds:
       #  builds:
       #  - signatory
       #  - signatory-cli
-image_templates:
-  - "technomad21c/signatory:latest"
-  - "technomad21c/signatory:{{ .Tag }}"
-dockerfile: Dockerfile
+      #  image_templates:
+      #    - "technomad21c/signatory:latest"
+      #    - "technomad21c/signatory:{{ .Tag }}"
+      #  dockerfile: Dockerfile
 archives:
 - replacements:
     darwin: Darwin
