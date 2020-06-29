@@ -20,8 +20,6 @@ builds:
   goarch:
     - amd64
     - arm
-      #  hooks:
-      #    post: sh copy-signatory.sh
   ignore:
         - goos: darwin
           goarch: 386
@@ -43,8 +41,6 @@ builds:
   goarch:
     - amd64
     - arm
-      #  hooks:
-      #    post: sh copy-signatory-cli.sh
   ignore:
     - goos: darwin
       goarch: 386
