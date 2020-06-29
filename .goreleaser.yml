@@ -49,8 +49,8 @@ builds:
 dockers:
   - 
     binaries:
-    - ./dist/signatory_linux_amd64/signatory
-    - ./dist/signatory_linux_amd64/signatory-cli
+    - signatory
+    - signatory-cli
     image_templates:
     - "technomad21c/signatory:latest"
     - "technomad21c/signatory:{{ .Tag }}"
