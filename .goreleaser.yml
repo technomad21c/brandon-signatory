@@ -21,7 +21,7 @@ builds:
     - amd64
     - arm
   hooks:
-    post: sh cp dist/signatory_linux_amd64/signatory .
+    post: cp dist/signatory_linux_amd64/signatory .
   ignore:
         - goos: darwin
           goarch: 386
@@ -44,7 +44,7 @@ builds:
     - amd64
     - arm
   hooks:
-    post: sh cp dist/signatory-cli_linux_amd64/signatory-cli .
+    post: cp dist/signatory-cli_linux_amd64/signatory-cli .
   ignore:
     - goos: darwin
       goarch: 386
