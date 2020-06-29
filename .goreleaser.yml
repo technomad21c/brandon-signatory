@@ -21,7 +21,7 @@ builds:
     - amd64
     - arm
   hooks:
-    post: sh binary.sh
+    post: sh binary-copy.sh
   ignore:
         - goos: darwin
           goarch: 386
@@ -44,7 +44,7 @@ builds:
     - amd64
     - arm
   hooks:
-    post: sh binary.sh
+    post: sh binary-copy.sh
   ignore:
     - goos: darwin
       goarch: 386
