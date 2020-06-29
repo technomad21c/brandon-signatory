@@ -1,0 +1,6 @@
+6afc27d8953012570a6e77b6c819cf82e4d1a01a68b676c0810d7504d8b055a0  signatory_0.0.1-beta.11_freebsd_armv6.tar.gz
+43467d412c8e864f40c9b06486d642ec062f007fb50736f9a28903d74e7923b1  signatory_0.0.1-beta.11_Windows_x86_64.tar.gz
+02506b475ee41759cae646c4b42f605d45471fe51516dbda1a2df26a92ec562d  signatory_0.0.1-beta.11_freebsd_x86_64.tar.gz
+425f67f5012e5dc48849eb36d0dd1a1ad40002be5ce541c81129fba5a865fe3d  signatory_0.0.1-beta.11_Darwin_x86_64.tar.gz
+e4dc71a3edf1d85ed276c344ad4847d8dcb0a49aefa05bab97df8592fb76d2fd  signatory_0.0.1-beta.11_Linux_armv6.tar.gz
+a67440317056f4ea870bcef76f79dcd9c9373214dd864f9c8323e4e20fc2ea0d  signatory_0.0.1-beta.11_Linux_x86_64.tar.gz
