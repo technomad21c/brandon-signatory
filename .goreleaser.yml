@@ -50,15 +50,15 @@ builds:
       goarch: 386
     - goos: windows
       goarch: 386
-dockers:
-  - 
-    binaries:
-    - signatory
-    - signatory-cli
-    image_templates:
-    - "technomad21c/signatory:latest"
-    - "technomad21c/signatory:{{ .Tag }}"
-    dockerfile: ./cmd/signatory/Dockerfile
+      #dockers:
+      #  - 
+      #    binaries:
+      #    - signatory
+      #    - signatory-cli
+      #    image_templates:
+      #    - "technomad21c/signatory:latest"
+      #    - "technomad21c/signatory:{{ .Tag }}"
+      #    dockerfile: ./cmd/signatory/Dockerfile
 archives:
 - replacements:
     darwin: Darwin
