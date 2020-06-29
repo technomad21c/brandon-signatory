@@ -5,6 +5,7 @@ before:
     - go mod download
 builds:
 - id: signatory
+  binary: signatory
   env:
   - CGO_ENABLED=0
   main: ./cmd/signatory/main.go
