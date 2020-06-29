@@ -1,7 +1,6 @@
 FROM alpine:3
 RUN apk --no-cache add ca-certificates
-COPY ./dist/signatory_linux_amd64/signatory /bin
-COPY ./dist/signatory_linux_amd64/signatory-cli /bin
+COPY signatory /bin
 
 ENTRYPOINT ["/bin/signatory"]
 
