@@ -46,18 +46,18 @@ builds:
       goarch: 386
     - goos: windows
       goarch: 386
-dockers:
-- 
-  binaries:
-  - signatory
-  - signatory-cli
-  builds:
-  - signatory
-  - signatory-cli
-  image_templates:
-    - "technomad21c/brandon-signatory:latest"
-    - "technomad21c/brandon-signatory:{{ .Tag }}"
-  dockerfile: Dockerfile
+ #dockers:
+ #- 
+ #  binaries:
+ #  - signatory
+ #  - signatory-cli
+ #  builds:
+ #  - signatory
+ #  - signatory-cli
+ #  image_templates:
+ #    - "technomad21c/brandon-signatory:latest"
+ #    - "technomad21c/brandon-signatory:{{ .Tag }}"
+ #  dockerfile: Dockerfile
 archives:
 - replacements:
     darwin: Darwin
