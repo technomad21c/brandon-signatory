@@ -10,7 +10,6 @@ name: Test and publish
 
 env:
   CC_BINARY_URL: https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
-  IMAGE_NAME: ecadlabs/signatory
 
 jobs:
   test:
