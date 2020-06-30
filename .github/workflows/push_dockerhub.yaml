@@ -1,4 +1,10 @@
-on: push
+on: 
+  push:
+    branches:
+      - master
+      - ghactions
+  pull_request:
+    
 name: Test and publish
 
 env:
