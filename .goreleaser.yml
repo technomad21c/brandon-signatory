@@ -55,8 +55,8 @@ dockers:
     - signatory
     - signatory-cli
     image_templates:
-      - "technomad21c/signatory:latest"
-      - "technomad21c/signatory:{{ .Tag }}"
+      - "technomad21c/brandon-signatory:latest"
+      - "technomad21c/brandon-signatory:{{ .Tag }}"
     dockerfile: Dockerfile
 archives:
 - replacements:
